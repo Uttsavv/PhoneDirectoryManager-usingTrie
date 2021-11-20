@@ -125,12 +125,6 @@ void displayContacts(string str)
     }
     else
         cout << "\nNo Results Found for " << str << "\n";
-    for (; i < len; i++)
-    {
-        prefix += (char)str[i];
-        cout << "\nNo Results Found for " << prefix << "\n";
-
-    }
 }
 
 void insertIntoTrie(vector<string> c, int n)
