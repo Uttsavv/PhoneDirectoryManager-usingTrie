@@ -98,8 +98,7 @@ void displayContacts(string str)
     string prefix = "";
     int len = str.length();
     TrieNode *curNode;
-    int i;
-    for (i = 0; i < len; i++)
+    for (int i = 0; i < len; i++)
     {
         prefix += (char)str[i];
 
